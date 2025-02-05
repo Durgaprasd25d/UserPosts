@@ -2,6 +2,12 @@
 
 A modern, responsive Next.js web application that displays user profiles and their associated posts, built with Redux Toolkit for state management and shadcn/ui for the user interface.
 
+## Demo
+
+- Live Demo: [User Feed Sync](https://user-feed-sync.vercel.app/)
+- GitHub Repository: [UserPosts](https://github.com/Durgaprasd25d/UserPosts.git)
+- Demo Image: ![Dashboard Screenshot](https://github.com/Durgaprasd25d/my-bio/blob/main/Screenshot%202025-02-05%20153545.png)
+
 ## Features
 
 - Fetch and display user profiles from JSONPlaceholder API
@@ -24,16 +30,23 @@ A modern, responsive Next.js web application that displays user profiles and the
 
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Durgaprasd25d/UserPosts.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd UserPosts
+   ```
+3. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the development server:
+4. Start the development server:
    ```bash
    npm run dev
    ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Project Structure
 
@@ -45,8 +58,8 @@ A modern, responsive Next.js web application that displays user profiles and the
 ## API Integration
 
 The application integrates with JSONPlaceholder API:
-- Users API: https://jsonplaceholder.typicode.com/users
-- Posts API: https://jsonplaceholder.typicode.com/posts
+- Users API: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
+- Posts API: [https://jsonplaceholder.typicode.com/posts](https://jsonplaceholder.typicode.com/posts)
 
 ## State Management
 
@@ -71,3 +84,4 @@ npm run build
 ## License
 
 MIT
+
